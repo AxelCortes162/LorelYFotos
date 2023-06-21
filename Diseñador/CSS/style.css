@@ -1,0 +1,47 @@
+/*Header*/
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,182,241,1));
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    height: 12rem;
+}
+.header__name-container{
+    background: url(/imagenes/L.png);
+    background-repeat: no-repeat;
+}
+.header__name{
+    position: relative;
+    bottom: 2.9rem;
+    font-size: 4rem;
+    font-family: Pacifico, cursive;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30.3%;
+}
+.header__menu-enlace:hover{
+    font-size: 29px;
+    text-decoration: underline;
+}
+.header__menu-enlace{
+    text-decoration: none;
+    color: #e81abf;
+    font-size: 20px;
+}
+
+/*Sobre mi*/
+.sobre__titulo{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.sobre__descripcion{
+    padding: 10px;
+}
